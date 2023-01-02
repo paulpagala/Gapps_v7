@@ -41,7 +41,7 @@ function MyApp({ Component, pageProps }) {
  const [RTE,setRTE] = useState('')
  const [bookingStart, setBookingStart] = useState([])
  const [bookingEnd, setBookingEnd] = useState([])
- const [SSOuser, setSSOuser] = useState([])
+ const [SSOuser, setSSOuser] = useState(null)
  const [parkingStatus,setParkingStatus] = useState(true)
 
 
